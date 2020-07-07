@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src" ,
+		"rootDir": "src",
+		"paths": {
+      "@/*": ["*"]
+    } ,
+		"forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+	}
+}

@@ -4,5 +4,9 @@
   "description": "Integração com RPC",
   "main": "src/entry.ts",
   "author": "Neto Moura <netomourajs@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.18",
+    "typescript": "^3.9.6"
+  }
 }
