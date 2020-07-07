@@ -1,0 +1,8 @@
+{
+  "name": "backend-epg",
+  "version": "1.0.0",
+  "description": "Integração com RPC",
+  "main": "src/entry.ts",
+  "author": "Neto Moura <netomourajs@gmail.com>",
+  "license": "MIT"
+}
