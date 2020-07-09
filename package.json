@@ -2,14 +2,29 @@
   "name": "backend-epg",
   "version": "1.0.0",
   "description": "Integração com RPC",
-  "main": "src/entry.ts",
+  "main": "src/application/www.ts",
   "author": "Neto Moura <netomourajs@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "test": "jest --no-cach --watchAll"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.4",
     "@types/node": "^14.0.18",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
     "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0",
     "ts-jest": "^26.1.1",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "tsconfig-paths": "^3.9.0"
   }
 }
